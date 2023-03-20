@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
- * main - A program that prints all possible different combinations of tow digital
- * Return: 0 (Success)
+ * main - A C program that prints all possible different combinations number
+ * Return: always (0)
  */
+
 int main(void)
 {
 	int i, j;
@@ -15,7 +16,7 @@ int main(void)
 			{
 				putchar(i);
 				putchar(j);
-				if (i != '8' || (i == '8' && j != '9'))
+				if (i != '8' || (i == '8' &&  j != '9'))
 				{
 					putchar(',');
 					putchar(' ');
