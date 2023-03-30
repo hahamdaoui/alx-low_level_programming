@@ -1,9 +1,6 @@
 #include <stdio.h>
-/*
- * main - A program that return nomber magic
- * @n : variable integer
- * Return: 0 (Success)
- */
+
+
 
 int main(void)
 {
@@ -12,6 +9,7 @@ int main(void)
 	int *p;
 
 	a[2] = 1024;
+	a[2] = 98
 	p = &n;
  /*
   * write your line of code here...
